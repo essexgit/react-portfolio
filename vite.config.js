@@ -7,4 +7,5 @@ export default defineConfig({
   server: { https: true },
   plugins: [react(),
   mkcert()],
+  base: "react-portfolio"
 });
